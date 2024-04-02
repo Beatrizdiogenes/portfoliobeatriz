@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}        
+body{
+    background-color: #e7e3d4;
+}
+
+.box1{
+    background-color: whitesmoke;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.logo{
+    max-width: 150px;
+    padding-left: 50px;
+}
+.lista_navegacao{
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.navegacao_item{
+    text-decoration: none;
+    color: #361409;
+    font-family: "Italiana", sans-serif;
+    padding-left: 50px;
+    transition: 0.3s ease-in-out;
+}
+.navegacao_item:hover{
+    color: #c9c292;
+}
+.navegacao_curriculo{
+    text-decoration: none;
+    list-style: none;
+    font-family: "Italiana", sans-serif;
+    color: black;
+    display: flex;
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 18px;
+    background-color: #9f606b;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.navegacao_curriculo:hover{
+    background-color: #e2afa8;
+
+}
+.home{
+    height: 180vh;
+    background-image: url("./img/gif2bia.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.home-caixa{
+    background-color: #e2afa8cc;
+    height: 20vh;
+    margin: 10px;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    gap: 20;
+    border-radius: 10px;
+    border-style: double;
+}
+.home-caixa-nome{
+    font-family: "Corinthia", cursive;
+    color: #080301;
+}
+.home-caixa-profissao{
+    font-family: "Italiana", sans-serif;
+    color: #510f45;
+}
+.sobre{
+    height: 100vh;
+    border-style: solid;
+    border-color: #573040;
+    background-color: #d8c4bd;
+}
+.sobre-caixa-sobre{
+    font-family: "Corinthia", cursive;
+    font-size: 35px;
+}
+.sobre-caixa{
+    background-color: #e2afa8;
+    height: 60vh;
+    margin: 60px;
+    padding: 50px 40px;
+    border-radius: 20px;
+    border-style: double;
+    border-color: #510f45;
+}
+.sobre-caixa-texto{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-size: 20px;
+    
+    
+}
+.sum_python{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    color:  #3a1b28;  
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    border-style: double;
+    border-width: 20%;
+}
+.sum_sql{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    color:  #3a1b28;  
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: double;
+    border-width: 20%;
+}
+.sum_html{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    color:  #3a1b28;  
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    border-style: double;
+    border-width: 20%;
+}
+.sum_css{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    color:  #3a1b28;  
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: double;
+    border-width: 20%;
+}
+.cursos-caixa{
+    display: flex;
+    justify-content: center;
+    background-color: #9f606b;
+
+    margin: 20px;
+    padding: 10px 15px;
+    border-style: solid 45px #080301;
+    border-color: #080301;
+}
+.cursos-caixa-cursos{
+    font-family: "Corinthia", cursive;
+    color: #080301;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px;
+    margin: 200px;
+   
+   
+}
+
+.cursos-texto-python{
+    font-family: "Lobster", sans-serif;
+    color: #080301;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+ 
+}
+
+.cursos-texto-sql{
+    font-family: "Lobster", sans-serif;
+    color: #080301;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cursos-texto-html{
+    font-family: "Lobster", sans-serif;
+    color: #080301;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cursos-texto-css{
+    font-family: "Lobster", sans-serif;
+    color: #080301;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caixa_mensagem{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d8b8ba;
+  margin: 0;
+  padding: 10px 10px;
+  border-radius: 15px;
+  border-style: solid 20px #080301;
+}
+.texto_mensagem{
+    font-family: "Corinthia", cursive;
+    font-size: 40px;
+}
+
+.botao{
+    background-color: #94435c;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    padding: 12px 10px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.botao:hover{
+    color: #e2afa8;
+}
+.caixa_nome{
+    font-family: "Lobster", sans-serif;
+    padding: 10px 10px;
+    color: #510f45; 
+}
+.caixa_tel{
+    font-family: "Lobster", sans-serif;
+    padding: 9px 9px;
+    color: #510f45;
+     
+}
+.caixa_email{
+    font-family: "Lobster", sans-serif;
+    padding: 9px 9px;
+    color: #510f45;
+}
+.caixa_mens{
+    font-family: "Lobster", sans-serif;
+    padding: 9px 9px;
+    color: #510f45;
+}
+.footer{
+    background-color: #3a1b28;
+    
+}
+.footer_copy{
+    font-family: "Lobster", sans-serif;
+    color: #e7e3d4;
+    display: flex;
+    justify-content: center;
+}
+.footer_curso{
+    font-family: "Lobster", sans-serif;
+    color: #e7e3d4;
+    display: flex;
+    justify-content: center;
+}
+.footer_autor{
+    font-family: "Lobster", sans-serif;
+    color: #e7e3d4;
+    display: flex;
+    justify-content: center;
+}
+.link_insta{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    text-decoration: none;
+    margin: 0;
+    padding: 8px 10px;
+    color: #3a1b28;
+}
+
+.link_git{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    text-decoration: none;
+    margin: 0;
+    padding: 8px 10px;
+    color: #3a1b28;
+}
+.link_likedin{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    text-decoration: none;
+    margin: 0;
+    padding: 8px 10px; 
+    color: #3a1b28;
+}
+.texto_contatos{
+    font-family: "Corinthia", cursive;
+    font-size: 40px;
+    padding: 6px 25px;
+}
+.contatos{
+    background-color:#c0a98c;
+    display: flex;
+    gap: 7px;
+    padding: 10px 10px;
+    justify-content: center;
+    text-align: center;
+}
+.imagem_insta{
+   
+    height: 35px;
+}
